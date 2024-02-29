@@ -3,7 +3,7 @@ from pymongo.mongo_client import MongoClient
 from pymongo.server_api import ServerApi
 
 app = Flask(__name__ )# ,static_folder='static' )
-uri = "mongodb+srv://sivarajc2005:22aia1083@sivarajc2005.4evmlz6.mongodb.net/?retryWrites=true&w=majority"
+uri = "mongodb+srv://sivarajc2005:<passward>@sivarajc2005.4evmlz6.mongodb.net/?retryWrites=true&w=majority"
 
 client = MongoClient(uri, server_api=ServerApi('1'))
 db = client.dbsparta
